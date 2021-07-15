@@ -1,0 +1,38 @@
+.footer-outer {
+  padding: 20px;
+}
+
+.footer-inner {
+  background-color: var(--color-dark);
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-element {
+  padding: 20px;
+  width: 50%;
+}
+
+.title-underline-footer {
+  color: #ffffff;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.footer-nav-link {
+  margin-left: 0;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+  }
+}

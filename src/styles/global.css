@@ -1,0 +1,102 @@
+:root {
+  --color-highlight: #d31376;
+  --color-dark: #494949;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-dark);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+}
+
+h1, h3, h4 {
+  margin-bottom: 0;
+}
+
+h2, h4, h5 {
+  margin-top: 0;
+}
+
+h3, h5 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+select {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+.title-underline {
+  width: 100px;
+  margin-top: 0;
+  border: 1px solid var(--color-highlight);
+}
+
+.button {
+  background-color: var(--color-dark);
+  color: #ffffff;
+  margin: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  min-width: 100px;
+  max-width: 100px;
+  height: 30px;
+  text-align: center;
+  border-color: var(--color-dark);
+  transition: background-color 1000ms;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--color-highlight);
+  border-color: var(--color-highlight);
+  transition: background-color 1000ms;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+a visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+i {
+  color: #000000;
+}
+
+ul {
+  margin: 0;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../img/pink-flowers.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

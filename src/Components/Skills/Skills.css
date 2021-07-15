@@ -1,0 +1,36 @@
+.skills-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-icons i {
+  font-size: 50px;
+  color: rgb(172, 170, 170);
+  margin: 20px;
+}
+
+.skills-icons img {
+  width: 50px;
+  margin: 20px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.button-right {
+  width: 50%;
+  align-items: flex-end;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .skills-icons {
+    flex-direction: row;
+  }
+}

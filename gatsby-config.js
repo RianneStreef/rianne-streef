@@ -6,10 +6,22 @@ module.exports = {
   plugins: [
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-fontawesome-css",
+
+    // {
+    //   resolve: "gatsby-plugin-manifest",
+    //   options: {
+    //     icon: "src/images/icon.png",
+    //   },
+    // },
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        icon: "src/images/icon.png",
+        fonts: [
+          `Montserrat`,
+          `source sans pro\:300,400,400i,`, // you can also specify font weights and styles
+        ],
+        display: "swap",
       },
     },
   ],
