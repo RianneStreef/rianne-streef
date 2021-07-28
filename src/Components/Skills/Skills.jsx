@@ -31,7 +31,7 @@ function Skills(props) {
       <h5>{language.skillsUnderTitle}</h5>
 
       <div className="skills-icons">
-        <FontAwesomeIcon className="skills-icon" icon={faHtml5} />
+        <FontAwesomeIcon className="skills-icon" icon={faHtml5} size="3x" />
         <FontAwesomeIcon className="skills-icon" icon={faCss3Alt} />
         <FontAwesomeIcon className="skills-icon" icon={faJsSquare} />
         <FontAwesomeIcon className="skills-icon" icon={faReact} />
