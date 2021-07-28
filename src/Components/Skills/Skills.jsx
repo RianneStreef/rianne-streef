@@ -7,6 +7,14 @@ import gatby from "../../img/gatsby.png";
 import contentful from "../../img/contentful.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faReact,
+  faGithub,
+  faApple,
+} from "@fortawesome/free-brands-svg-icons";
 
 import { content } from "../../content/languages";
 
@@ -23,12 +31,13 @@ function Skills(props) {
       <h5>{language.skillsUnderTitle}</h5>
 
       <div className="skills-icons">
-        <i className="fab fa-html5" />
-        <i className="fab fa-css3-alt" />
-        <i className="fab fa-js-square" />
-        <i className="fab fa-react" />
-        <i className="fab fa-github" />
-        <i className="fab fa-apple" />
+        <FontAwesomeIcon className="skills-icon" icon={faHtml5} size="2x" />
+        <FontAwesomeIcon className="skills-icon" icon={faCss3Alt} size="2x" />
+        <FontAwesomeIcon className="skills-icon" icon={faJsSquare} size="2x" />
+        <FontAwesomeIcon className="skills-icon" icon={faReact} size="2x" />
+        <FontAwesomeIcon className="skills-icon" icon={faGithub} size="2x" />
+        <FontAwesomeIcon className="skills-icon" icon={faApple} size="2x" />
+
         <img src={gatby} alt="gatsby" />
         <img src={contentful} alt="gatsby" />
       </div>

@@ -6,6 +6,7 @@ import About from "../About/About.jsx";
 import Work from "../Work/Work.jsx";
 import Skills from "../Skills/Skills.jsx";
 import Contact from "../Contact/Contact.jsx";
+// import MailChimp from "../MailChimp/MailChimp.jsx";
 import Footer from "../Footer/Footer.jsx";
 import Copyright from "../Copyright/Copyright.jsx";
 
@@ -23,6 +24,7 @@ function Home(props) {
       <Work language={language} />
       <Skills language={language} />
       <Contact language={language} />
+      {/* <MailChimp /> */}
       <Footer language={language} />
       <Copyright language={language} />
     </div>
