@@ -8,26 +8,20 @@
   justify-content: center;
 }
 
-.form-left {
-  width: 50%;
-  padding: 40px;
-}
-.form-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 50%;
-  padding: 40px;
-}
-
 .input, textarea {
   border: none;
   border-bottom: solid 1px #000000;
   width: 100%;
 }
 
-.buttonContainer {
+.button-container {
   display: flex;
+  justify-content: center;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -52,7 +46,7 @@ label {
   display: block;
   cursor: pointer;
   border: 2px solid rgb(255, 255, 255);
-  width: 200px;
+
   max-height: 50px;
   padding: 8px 16px;
   background-color: rgb(211, 19, 118);
@@ -62,6 +56,7 @@ label {
   text-decoration: none;
   border-radius: 0px;
   visibility: visible;
+  margin-top: 10px;
 }
 
 @media (min-width: 768px) {
