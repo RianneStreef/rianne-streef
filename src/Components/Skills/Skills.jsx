@@ -32,11 +32,11 @@ function Skills(props) {
 
       <div className="skills-icons">
         <FontAwesomeIcon className="skills-icon" icon={faHtml5} size="3x" />
-        <FontAwesomeIcon className="skills-icon" icon={faCss3Alt} />
-        <FontAwesomeIcon className="skills-icon" icon={faJsSquare} />
-        <FontAwesomeIcon className="skills-icon" icon={faReact} />
-        <FontAwesomeIcon className="skills-icon" icon={faGithub} />
-        <FontAwesomeIcon className="skills-icon" icon={faApple} />
+        <FontAwesomeIcon className="skills-icon" icon={faCss3Alt} size="3x" />
+        <FontAwesomeIcon className="skills-icon" icon={faJsSquare} size="3x" />
+        <FontAwesomeIcon className="skills-icon" icon={faReact} size="3x" />
+        <FontAwesomeIcon className="skills-icon" icon={faGithub} size="3x" />
+        <FontAwesomeIcon className="skills-icon" icon={faApple} size="3x" />
 
         <img src={gatby} alt="gatsby" />
         <img src={contentful} alt="gatsby" />
