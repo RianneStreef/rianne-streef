@@ -4,6 +4,14 @@ import "./Work.css";
 import "../../styles/global.css";
 
 import { content } from "../../content/languages";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faUtensils,
+  faArrowRight,
+  faChild,
+  faCode,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Work(props) {
   let { language } = props;
@@ -20,7 +28,11 @@ function Work(props) {
       <div className="work-container">
         <div className="work-item">
           <div className="project-title">
-            <i class="fas fa-utensils"></i>
+            <FontAwesomeIcon
+              className="work-icon"
+              icon={faUtensils}
+              size="1.5x"
+            />
             <h4 className="project-name">{language.sebGourmetTitle}</h4>
           </div>
           <p className="product-description">
@@ -28,30 +40,42 @@ function Work(props) {
           </p>
           <div className="read-more">
             <h4>{language.readMore}</h4>
-            <i class="fas fa-arrow-right" />{" "}
+            <FontAwesomeIcon
+              className="work-icon"
+              icon={faArrowRight}
+              size="1.5x"
+            />{" "}
           </div>
         </div>
 
         <div className="work-item">
           <div className="project-title">
-            <i class="fas fa-child"></i>
+            <FontAwesomeIcon className="work-icon" icon={faChild} size="1.5x" />{" "}
             <h4 className="project-name">{language.coreMoveTitle}</h4>
           </div>
           <p className="product-description">{language.coreMoveDescription} </p>
           <div className="read-more">
             <h4>{language.readMore}</h4>
-            <i class="fas fa-arrow-right" />{" "}
+            <FontAwesomeIcon
+              className="work-icon"
+              icon={faArrowRight}
+              size="1.5x"
+            />{" "}
           </div>
         </div>
         <div className="work-item">
           <div className="project-title">
-            <i class="fas fa-code"></i>
+            <FontAwesomeIcon className="work-icon" icon={faCode} size="1.5x" />{" "}
             <h4 className="project-name">{language.VTSTitle}</h4>
           </div>
           <p className="product-description">{language.VTSDescription} </p>
           <div className="read-more">
             <h4>{language.comingSoon}</h4>
-            {/* <i class="fas fa-arrow-right" />{" "} */}
+            {/* <FontAwesomeIcon
+              className="work-icon"
+              icon={faArrowRight}
+              size="1.5x"
+            />{" "} */}
           </div>
         </div>
       </div>

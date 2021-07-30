@@ -4,6 +4,9 @@ import { content } from "../../content/languages";
 
 import "../../styles/global.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 function Title(props) {
   let { language } = props;
   language === "english"
@@ -34,7 +37,11 @@ function Title(props) {
             href="https://www.linkedin.com/in/rianne-streef-13a537201/"
             target="blank"
           >
-            <i className="fab fa-linkedin" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="title-icon"
+              size="3x"
+            />
             <p>LinkedIn</p>
           </a>
           <a
@@ -42,7 +49,7 @@ function Title(props) {
             href="https://www.github.com/RianneStreef"
             target="blank"
           >
-            <i className="fab fa-github-square" />
+            <FontAwesomeIcon icon={faGithub} className="title-icon" size="3x" />
             <p>GitHub</p>
           </a>
         </div>
