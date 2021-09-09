@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 import "../../styles/global.css";
 
-import flagEn from "../../img/icon-en.png";
-import flagFr from "../../img/icon-fr.png";
+import flagEn from "../../images/icon-en.png";
+import flagFr from "../../images/icon-fr.png";
 
 import { Link } from "react-scroll";
 
@@ -90,13 +90,9 @@ const Flag = styled.img`
 const RightNav = (props) => {
   let { open, setOpen, language, setLanguage } = props;
 
-  console.log(language);
-
   language === "english"
     ? (language = content.english)
     : (language = content.french);
-
-  console.log(language);
 
   const [headerClassName, setHeaderClassName] = useState("");
 
@@ -112,7 +108,6 @@ const RightNav = (props) => {
   };
 
   function handleSetLanguage(language) {
-    console.log(language);
     setLanguage(language);
     storeLanguageInLocalStorage(language);
   }

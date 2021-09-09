@@ -5,7 +5,10 @@ import { content } from "../../content/languages";
 import "../../styles/global.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  // faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Title(props) {
   let { language } = props;
@@ -13,7 +16,6 @@ function Title(props) {
     ? (language = content.english)
     : (language = content.french);
 
-  console.log(content);
   return (
     <div className="title">
       <div className="center-mobile">
@@ -24,7 +26,7 @@ function Title(props) {
         </div>
         <div className="email-button-container">
           <button className="button">
-            <a class="mailto" href="mailto:rianne@riannestreef.com">
+            <a className="mailto" href="mailto:rianne@riannestreef.com">
               {language.emailMe}
             </a>
           </button>
@@ -32,7 +34,7 @@ function Title(props) {
       </div>
       <div className="bottom-contact">
         <div className="contact-icons">
-          <a
+          {/* <a
             className="contact-link"
             href="https://www.linkedin.com/in/rianne-streef-13a537201/"
             target="blank"
@@ -43,7 +45,7 @@ function Title(props) {
               size="3x"
             />
             <p>LinkedIn</p>
-          </a>
+          </a> */}
           <a
             className="contact-link"
             href="https://www.github.com/RianneStreef"

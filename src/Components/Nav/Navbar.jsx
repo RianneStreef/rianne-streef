@@ -5,12 +5,13 @@ import Burger from "./Burger";
 import "../../styles/global.css";
 
 const Nav = styled.nav`
-  height: 55px;
+  min-height: 55px;
   width: 100%;
   padding: 0 20px;
   display: flex;
   justify-content: flex-end;
   position: fixed;
+  background-color: var(--color-highlight);
 `;
 
 const Navbar = (props) => {

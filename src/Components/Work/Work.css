@@ -35,6 +35,14 @@
   margin-top: 40px;
   display: flex;
   flex-direction: row;
+  color: #fff;
+  text-decoration: none;
+}
+
+.read-more:visited {
+  color: #fff;
+  text-decoration: none;
+
 }
 
 .project-title {

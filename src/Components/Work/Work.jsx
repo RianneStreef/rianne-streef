@@ -31,41 +31,53 @@ function Work(props) {
             <FontAwesomeIcon
               className="work-icon"
               icon={faUtensils}
-              size="1.5x"
+              size="1x"
             />
             <h4 className="project-name">{language.sebGourmetTitle}</h4>
           </div>
           <p className="product-description">
             {language.sebGourmetDescription}{" "}
           </p>
-          <div className="read-more">
+          <a
+            href="https://www.sebgourmet-traiteur.com"
+            className="read-more"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h4>{language.readMore}</h4>
             <FontAwesomeIcon
               className="work-icon"
               icon={faArrowRight}
-              size="1.5x"
+              size="1x"
             />{" "}
-          </div>
+          </a>
         </div>
 
         <div className="work-item">
           <div className="project-title">
-            <FontAwesomeIcon className="work-icon" icon={faChild} size="1.5x" />{" "}
+            <FontAwesomeIcon className="work-icon" icon={faChild} size="1x" />{" "}
             <h4 className="project-name">{language.coreMoveTitle}</h4>
           </div>
           <p className="product-description">{language.coreMoveDescription} </p>
-          <div className="read-more">
+
+          <a
+            href="https://www.coremove.nl"
+            className="read-more"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
             <h4>{language.readMore}</h4>
             <FontAwesomeIcon
               className="work-icon"
               icon={faArrowRight}
-              size="1.5x"
+              size="1x"
             />{" "}
-          </div>
+          </a>
         </div>
         <div className="work-item">
           <div className="project-title">
-            <FontAwesomeIcon className="work-icon" icon={faCode} size="1.5x" />{" "}
+            <FontAwesomeIcon className="work-icon" icon={faCode} size="1x" />{" "}
             <h4 className="project-name">{language.VTSTitle}</h4>
           </div>
           <p className="product-description">{language.VTSDescription} </p>

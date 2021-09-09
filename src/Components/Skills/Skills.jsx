@@ -3,8 +3,8 @@ import "./Skills.css";
 
 import "../../styles/global.css";
 
-import gatby from "../../img/gatsby.png";
-import contentful from "../../img/contentful.png";
+import gatby from "../../images/gatsby.png";
+import contentful from "../../images/contentful.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

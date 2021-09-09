@@ -12,30 +12,26 @@ export const english = {
   emailMe: "Email Me",
 
   aboutMeTitle: "About me",
-  aboutMeUnderTitle:"What do I do and How did I get here.",
+  aboutMeUnderTitle: "What do I do and How did I get here",
   aboutMe:
     "In 2020 I decided to turn this negative COVID situation into a positive experience and I started my education in web design and development. Driven by my curiosity to create and innovate and my passion for logic and coding I applied at OpenClassrooms. Fascinated by new ideas, both in terms of development in familiar fields as in new subjects. This, and being client oriented makes me widely deployable. Now I have completed my education I want to show people what I am capable of. Work in a team of people that are innovative, enthusiastic and communicative. Motivated and ambitious to further develop my skills and learn new techniques.",
 
   skillsTitle: "My Skills",
-  skillsUnderTitle:"Stuff I am good at.",
+  skillsUnderTitle: "Stuff I am good at",
 
   workTitle: "My Work",
-  workUnderTitle:"Projects I have done so far",
-
+  workUnderTitle: "Projects I have done so far",
 
   sebGourmetTitle: "Seb Gourmet Traiteur",
-  sebGourmetDescription:
-    "Caterer, situated in the Belleville, France.",
+  sebGourmetDescription: "Caterer, situated in the Belleville, France.",
 
   coreMoveTitle: " Core Move",
   coreMoveDescription:
     "Guidance by a physical therapist to improve your core. The Hague, The Netherlands",
 
-    VTSTitle: "VTS Web Design ",
-    VTSDescription:
-      "Our own web design company! Based in Val Thorens, France ",
+  VTSTitle: "VTS Web Design ",
+  VTSDescription: "Our own web design company! Based in Val Thorens, France ",
   comingSoon: "Coming soon!",
-  
 
   readMore: "Visit website",
 

@@ -9,6 +9,8 @@ import Contact from "../Contact/Contact.jsx";
 import Footer from "../Footer/Footer.jsx";
 import Copyright from "../Copyright/Copyright.jsx";
 
+// import MailChimp from "../MailChimp/MailChimp";
+
 import "../../styles/global.css";
 
 function Home(props) {
@@ -23,6 +25,9 @@ function Home(props) {
       <Work language={language} />
       <Skills language={language} />
       <Contact language={language} />
+
+      {/* <MailChimp /> */}
+
       <Footer language={language} />
       <Copyright language={language} />
     </div>

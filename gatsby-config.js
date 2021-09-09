@@ -37,5 +37,11 @@ module.exports = {
         domain: "riannestreef.com",
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/images/icon.png",
+      },
+    },
   ],
 };

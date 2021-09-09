@@ -75,6 +75,7 @@ select {
   justify-content: center;
 }
 
+
 a visited {
   text-decoration: none;
   color: #000000;
@@ -93,7 +94,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("../img/pink-flowers.jpeg");
+  background-image: url("../images/pink-flowers.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
