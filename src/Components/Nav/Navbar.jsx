@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
 
@@ -16,14 +16,16 @@ const Nav = styled.nav`
 const opacity = 0.1;
 let navbar;
 
-window.addEventListener("scroll", () => {
-  navbar = document.getElementById("navbar");
-  const y = 1 + (window.scrollY || window.pageYOffset);
-  const o = (opacity + y) / 800;
-  navbar.style.backgroundColor = `rgb(211, 19, 118, ${o} `;
-});
-
 const Navbar = (props) => {
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      navbar = document.getElementById("navbar");
+      const y = 1 + (window.scrollY || window.pageYOffset);
+      const o = (opacity + y) / 800;
+      navbar.style.backgroundColor = `rgb(211, 19, 118, ${o} `;
+    });
+  });
+
   let { language, setLanguage } = props;
   return (
     <Nav id="navbar">
