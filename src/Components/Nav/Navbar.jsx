@@ -11,13 +11,22 @@ const Nav = styled.nav`
   display: flex;
   justify-content: flex-end;
   position: fixed;
-  background-color: var(--color-highlight);
 `;
+
+const opacity = 0.1;
+let navbar;
+
+window.addEventListener("scroll", () => {
+  navbar = document.getElementById("navbar");
+  const y = 1 + (window.scrollY || window.pageYOffset);
+  const o = (opacity + y) / 800;
+  navbar.style.backgroundColor = `rgb(211, 19, 118, ${o} `;
+});
 
 const Navbar = (props) => {
   let { language, setLanguage } = props;
   return (
-    <Nav>
+    <Nav id="navbar">
       <Burger language={language} setLanguage={setLanguage} />
     </Nav>
   );

@@ -15,7 +15,7 @@ const Ul = styled.ul`
   display: flex;
   align-items: flex-end;
   z-index: 10;
-  background-color: #d31376;
+  background-color: rgb(211, 19, 118, 0.8);
 
   @media (min-width: 768px) {
     justify-content: center;
