@@ -19,10 +19,12 @@ let navbar;
 const Navbar = (props) => {
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      navbar = document.getElementById("navbar");
-      const y = 1 + (window.scrollY || window.pageYOffset);
-      const o = (opacity + y) / 800;
-      navbar.style.backgroundColor = `rgb(211, 19, 118, ${o} `;
+      if (typeof window !== "undefined") {
+        navbar = document.getElementById("navbar");
+        const y = 1 + (window.scrollY || window.pageYOffset);
+        const o = (opacity + y) / 800;
+        navbar.style.backgroundColor = `rgb(211, 19, 118, ${o} `;
+      }
     });
   });
 
